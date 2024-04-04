@@ -1,0 +1,17 @@
+@import '../theme/colors.scss';
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    .menu{
+        background-color: map-get($map: $colors, $key: menuColor);
+        color:map-get($map: $colors, $key: white);
+        height: 100vh;
+        width: 15%;
+    }
+    .landing{
+        display: flex;
+        flex-direction: column;
+        color:map-get($map: $colors, $key: black)
+    }
+}
